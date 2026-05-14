@@ -2,63 +2,72 @@
 <html lang="ru">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>сайт</title>
-  <link rel="stylesheet" href="style.css">
+  <title>карточка</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      width: 300p;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .card h2 {
+      margin: 15px 0 10px;
+      font-size: 24px;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background: #496380;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .btn:hover {
+      background: #3b5170;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <div class="card">
-      <h2>Добро пожаловать на сайт Единобожия</h2>
-      <p>Здесь вы найдете информацию о единобожии и его принципах.</p>
+  <div class="card">
+    <img src="OIP (3).webp" alt="Card Image">
+    <h2>не пахнуший парфюм</h2>
+    <div class="card-content">
+      <p>парфюм абсолютно без запаха, для непахнувшихся людей</p>
+      <a href="#" class="btn">Подробнее</a>
     </div>
-    <div class="tagline">
-      <p>Путь к единобожию</p>
-    </div>
-  </header>
-  <nav>
-    <ul>
-      <li><a href="#home">Главная</a></li>
-      <li><a href="#about">Таухид Рубубия</a></li>
-      <li><a href="#contact">Таухид Улухия</a></li>
-      <li><a href="#services">Таухид Асмаа ва Сифат</a></li>
-    </ul>
-  </nav>
-  <main>
-    <section id="home">
-      <h2>Добро пожаловать на сайт Единобожия</h2>
-      <p>Здесь вы найдете информацию о единобожии и его принципах.</p>
-      <article>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allah_Arabic_Calligraphy.svg/1200px-Allah_Arabic_Calligraphy.svg.png"
-          alt="Единобожие">
-        <h3>Что такое единобожие?</h3>
-        <p>Единобожие - это вера в существование одного Бога, который является творцом и управителем всего сущего.</p>
-      </article>
-      <article>
-        <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Allah_Arabic_Calligraphy.svg/1200px-Allah_Arabic_Calligraphy.svg.png"
-          alt="Единобожие">
-        <h3>Принципы единобожия</h3>
-        <p>Единобожие включает в себя признание единства Бога, поклонение только Ему и следование Его заповедям.</p>
-      </article>
-    </section>
-    <section id="about">
-      <h2>Таухид Рубубия</h2>
-      <p>Таухид Рубубия - это признание единства Бога в Его творении и управлении миром.</p>
-    </section>
-    <section id="contact">
-      <h2>Таухид Улухия</h2>
-      <p>Таухид Улухия - это признание единства Бога в поклонении и служении Ему.</p>
-    </section>
-    <section id="services">
-      <h2>Таухид Асмаа ва Сифат</h2>
-      <p>Таухид Асмаа ва Сифат - это признание единства Бога в Его именах и качествах.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 2024 Единобожие-ключ от врат Рая.</p>
-  </footer>
+  </div>
+
 </body>
+
+</html>
